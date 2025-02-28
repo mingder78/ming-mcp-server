@@ -1,6 +1,6 @@
 {
   "name": "ming-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Model Context Protocol server",
   "private": true,
   "type": "module",
@@ -17,7 +17,7 @@
     "inspector": "npx @modelcontextprotocol/inspector build/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "0.6.0"
+    "@modelcontextprotocol/sdk": "^1.6.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
