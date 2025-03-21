@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 // Spawn the compiled server
-const SERVER_PATH = "build/index2.js"; // Adjust if different
+const SERVER_PATH = "build/index.js"; // Adjust if different
 const serverProcess = spawn("node", [SERVER_PATH], {
   stdio: ["pipe", "pipe", "inherit"]
 });
