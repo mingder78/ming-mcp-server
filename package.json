@@ -17,7 +17,9 @@
     "inspector": "npx @modelcontextprotocol/inspector build/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.6.0"
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "child_process": "^1.0.2",
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
