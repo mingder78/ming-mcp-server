@@ -1,6 +1,6 @@
 {
   "name": "ming-mcp-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Model Context Protocol server",
   "private": true,
   "type": "module",
