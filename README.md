@@ -51,11 +51,12 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
 
 ```json
 {
-  "mcpServers": {
-    "ming-mcp-server": {
-      "command": "/path/to/ming-mcp-server/build/index.js"
+   "ming-mcp-server": {
+      "command": "node",
+      "args": [
+        "/private/tmp/ming-mcp-server/build/index.js"
+      ]
     }
-  }
 }
 ```
 
